@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Quote | Thompson &amp; Sons Plumbing</title>
+<meta name="description" content="Request a free plumbing quote from Thompson & Sons — attach a photo and hear back within the hour.">
+<link rel="canonical" href="https://thompsonplumbing.co.za/about.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="css_assets/style.css">
+</head>
+<body>
+
+<div class="emergency-strip">Burst pipe? We're on call 24/7 — <a href="tel:+27110000000">011 000 0000</a></div>
+
+<header>
+  <img src="_images/NeosPlumbling Logo with Water Drop Pipe (1).png" alt="Thompson &amp; Sons Plumbing">
+  <div class="header-inner">
+
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="enquiries.html">Get a Quote</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="services.html">Our Services</a></li>
+    </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Free, No-Obligation Quote</span>
+    <h1>Tell us what's wrong. We'll tell you what it takes to fix it.</h1>
+    <p>Fill in the form below — attach a photo if you can — and a member of the team will get back to you, usually within the hour during business hours.</p>
+  </div>
+</section>
+
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="form-success">Thanks — your request has been received. We'll be in touch shortly.</div>
+    <form id="quote-form">
+      <div class="field-row">
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="field">
+        <label for="service">Type of Job</label>
+        <select id="service" name="service" required>
+          <option value="">Select one</option>
+          <option>Emergency repair</option>
+          <option>Installation</option>
+          <option>Maintenance plan</option>
+          <option>General enquiry</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="urgency">How urgent is this?</label>
+        <select id="urgency" name="urgency" required>
+          <option value="">Select one</option>
+          <option>Emergency — needed today</option>
+          <option>This week</option>
+          <option>No rush — just quoting</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="details">Describe the issue</label>
+        <textarea id="details" name="details" placeholder="e.g. Kitchen tap has been leaking under the sink for two days" required></textarea>
+      </div>
+
+      <div class="field">
+        <label>Photo of the issue (optional)</label>
+        <div class="file-drop">
+          <span>Click to upload a photo, or drag one here</span>
+        </div>
+        <input type="file" id="photo-upload" accept="image/*" style="display:none;">
+        <p class="form-note">A photo helps us quote more accurately before we even arrive.</p>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Send Quote Request</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <h4>Thompson &amp; Sons Plumbing</h4>
+      <p>Serving greater Johannesburg since 2011.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <p><a href="index.html">Home</a><br><a href="about.html">About</a><br><a href="contact.html">Contact</a></p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="tel:+27110000000">011 000 0000</a><br>info@thompsonplumbing.co.za</p>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+27110000000" class="sticky-call">Call Now — Emergency Callout</a>
+<script src="js_assets/script.js"></script>
+</body>
+</html>
