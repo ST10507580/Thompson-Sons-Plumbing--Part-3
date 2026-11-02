@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thompsonplumbing.co.za/sitemap.xml
+Sitemap: https://github.com/ST10507580/Thompson-Sons-Plumbing--Part-3/blob/main/neosbakery/sitemap.xml
